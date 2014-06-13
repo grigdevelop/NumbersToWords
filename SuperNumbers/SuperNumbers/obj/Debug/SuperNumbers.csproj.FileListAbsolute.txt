@@ -1,0 +1,8 @@
+c:\users\grigor.aleksanyan\documents\visual studio 2013\Projects\SuperNumbers\SuperNumbers\bin\Debug\SuperNumbers.exe.config
+c:\users\grigor.aleksanyan\documents\visual studio 2013\Projects\SuperNumbers\SuperNumbers\bin\Debug\SuperNumbers.exe
+c:\users\grigor.aleksanyan\documents\visual studio 2013\Projects\SuperNumbers\SuperNumbers\bin\Debug\SuperNumbers.pdb
+c:\users\grigor.aleksanyan\documents\visual studio 2013\Projects\SuperNumbers\SuperNumbers\bin\Debug\NumbersToWordsLib.dll
+c:\users\grigor.aleksanyan\documents\visual studio 2013\Projects\SuperNumbers\SuperNumbers\bin\Debug\NumbersToWordsLib.pdb
+c:\users\grigor.aleksanyan\documents\visual studio 2013\Projects\SuperNumbers\SuperNumbers\obj\Debug\SuperNumbers.csprojResolveAssemblyReference.cache
+c:\users\grigor.aleksanyan\documents\visual studio 2013\Projects\SuperNumbers\SuperNumbers\obj\Debug\SuperNumbers.exe
+c:\users\grigor.aleksanyan\documents\visual studio 2013\Projects\SuperNumbers\SuperNumbers\obj\Debug\SuperNumbers.pdb
