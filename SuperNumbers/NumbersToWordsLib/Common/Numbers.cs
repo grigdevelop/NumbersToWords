@@ -43,6 +43,12 @@ namespace NumbersToWordsLib.Common
             _plural = plural;
         }
 
+        public NumberWithNonConstantGender(string singular, string plural)
+            : this(singular, singular, singular, plural)
+        {
+
+        }
+
         public override string Formulation(GenderAndCount genderAndCount)
         {
             return genderAndCount.GetForm(this);
@@ -54,20 +60,15 @@ namespace NumbersToWordsLib.Common
         public string Neutral { get { return _neutral; } }
     }
 
-    public abstract class TenNumbersBase
+    public abstract class TenNumbersBase : NTWItemBase
     {
-        public NumberBase[] Numbers { get; private set; }
 
         public abstract void Formulation(ToWordBuilder toWordBuilder, uint numberOfUnits, GenderAndCount gender);
 
-        protected TenNumbersBase(NumberBase[] numbers)
-        {
-            this.Numbers = numbers;
-        }
 
-        protected string FormulationOfNumber(uint number, GenderAndCount gender)
+        protected virtual string FormulationOfNumber(uint number, GenderAndCount gender)
         {
-            return this.Numbers[number].Formulation(gender);
+            return Context.Numbers[number].Formulation(gender);
         }
     }
 
@@ -75,8 +76,7 @@ namespace NumbersToWordsLib.Common
     {
         private readonly string _name;
 
-        public StandardTenNumbers(NumberBase[] numbers, string name)
-            : base(numbers)
+        public StandardTenNumbers(string name)
         {
             _name = name;
         }
@@ -92,5 +92,20 @@ namespace NumbersToWordsLib.Common
         }
     }
 
-   
+    public class Grade : IMeasure
+    {
+        private readonly string _rootName;
+
+        public Grade(string rootName)
+        {
+            _rootName = rootName;
+        }
+
+        public string NominativeUnit { get { return _rootName; } }
+        public string GenderUnit { get { return _rootName; } }
+        public string GenderPlural { get { return _rootName; } }
+        public GenderAndCount GenderNCount { get { return GenderAndCount.Masculine; } }
+    }
+
+
 }

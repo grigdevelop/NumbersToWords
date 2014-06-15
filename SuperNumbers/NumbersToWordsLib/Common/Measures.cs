@@ -17,6 +17,49 @@ namespace NumbersToWordsLib.Common
         GenderAndCount GenderNCount { get; }
     }
 
+    public class Measure : IMeasure
+    {
+        readonly GenderAndCount _genderAndCount;
+        readonly string _nominativeUnit;
+        readonly string _genderUnit;
+        readonly string _genderPlural;
+        
+        public Measure(
+            GenderAndCount genderAndCount,
+            string nominativeUnit,
+            string genderUnit,
+            string genderPlural)
+        {
+            this._genderAndCount = genderAndCount;
+            this._nominativeUnit = nominativeUnit;
+            this._genderUnit = genderUnit;
+            this._genderPlural = genderPlural;
+        }
+            
+
+        string IMeasure.NominativeUnit
+        {
+            get { return this._nominativeUnit; }
+        }
+
+        string IMeasure.GenderUnit
+        {
+            get { return this._genderUnit; }
+        }
+
+        string IMeasure.GenderPlural
+        {
+            get { return this._genderPlural; }
+        }
+
+        GenderAndCount IMeasure.GenderNCount
+        {
+            get { return this._genderAndCount; }
+        }
+
+       
+    }
+
     public abstract class GenderAndCount : IMeasure
     {
         public string NominativeUnit { get { return null; } }

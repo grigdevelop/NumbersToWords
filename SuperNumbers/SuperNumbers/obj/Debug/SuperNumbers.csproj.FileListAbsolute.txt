@@ -6,3 +6,11 @@ c:\users\grigor.aleksanyan\documents\visual studio 2013\Projects\SuperNumbers\Su
 c:\users\grigor.aleksanyan\documents\visual studio 2013\Projects\SuperNumbers\SuperNumbers\obj\Debug\SuperNumbers.csprojResolveAssemblyReference.cache
 c:\users\grigor.aleksanyan\documents\visual studio 2013\Projects\SuperNumbers\SuperNumbers\obj\Debug\SuperNumbers.exe
 c:\users\grigor.aleksanyan\documents\visual studio 2013\Projects\SuperNumbers\SuperNumbers\obj\Debug\SuperNumbers.pdb
+C:\Users\Grigor\Documents\GitHub\NumbersToWords\SuperNumbers\SuperNumbers\bin\Debug\SuperNumbers.exe.config
+C:\Users\Grigor\Documents\GitHub\NumbersToWords\SuperNumbers\SuperNumbers\obj\Debug\SuperNumbers.exe
+C:\Users\Grigor\Documents\GitHub\NumbersToWords\SuperNumbers\SuperNumbers\obj\Debug\SuperNumbers.pdb
+C:\Users\Grigor\Documents\GitHub\NumbersToWords\SuperNumbers\SuperNumbers\bin\Debug\SuperNumbers.exe
+C:\Users\Grigor\Documents\GitHub\NumbersToWords\SuperNumbers\SuperNumbers\bin\Debug\SuperNumbers.pdb
+C:\Users\Grigor\Documents\GitHub\NumbersToWords\SuperNumbers\SuperNumbers\bin\Debug\NumbersToWordsLib.dll
+C:\Users\Grigor\Documents\GitHub\NumbersToWords\SuperNumbers\SuperNumbers\bin\Debug\NumbersToWordsLib.pdb
+C:\Users\Grigor\Documents\GitHub\NumbersToWords\SuperNumbers\SuperNumbers\obj\Debug\SuperNumbers.csprojResolveAssemblyReference.cache

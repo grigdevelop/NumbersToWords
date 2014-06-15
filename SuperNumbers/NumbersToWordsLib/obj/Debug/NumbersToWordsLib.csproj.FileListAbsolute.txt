@@ -3,3 +3,8 @@ c:\users\grigor.aleksanyan\documents\visual studio 2013\Projects\SuperNumbers\Nu
 c:\users\grigor.aleksanyan\documents\visual studio 2013\Projects\SuperNumbers\NumbersToWordsLib\obj\Debug\NumbersToWordsLib.csprojResolveAssemblyReference.cache
 c:\users\grigor.aleksanyan\documents\visual studio 2013\Projects\SuperNumbers\NumbersToWordsLib\obj\Debug\NumbersToWordsLib.dll
 c:\users\grigor.aleksanyan\documents\visual studio 2013\Projects\SuperNumbers\NumbersToWordsLib\obj\Debug\NumbersToWordsLib.pdb
+C:\Users\Grigor\Documents\GitHub\NumbersToWords\SuperNumbers\NumbersToWordsLib\bin\Debug\NumbersToWordsLib.dll
+C:\Users\Grigor\Documents\GitHub\NumbersToWords\SuperNumbers\NumbersToWordsLib\bin\Debug\NumbersToWordsLib.pdb
+C:\Users\Grigor\Documents\GitHub\NumbersToWords\SuperNumbers\NumbersToWordsLib\obj\Debug\NumbersToWordsLib.csprojResolveAssemblyReference.cache
+C:\Users\Grigor\Documents\GitHub\NumbersToWords\SuperNumbers\NumbersToWordsLib\obj\Debug\NumbersToWordsLib.dll
+C:\Users\Grigor\Documents\GitHub\NumbersToWords\SuperNumbers\NumbersToWordsLib\obj\Debug\NumbersToWordsLib.pdb
