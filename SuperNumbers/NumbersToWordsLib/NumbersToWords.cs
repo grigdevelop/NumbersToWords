@@ -12,6 +12,8 @@ namespace NumbersToWordsLib
     {
         #region Datas
 
+        private readonly INTWData CurrentData;
+
         public NumberBase[] Numbers { get; private set; }
 
         public TenNumbersBase[] TenNumbers { get; private set; }
@@ -19,6 +21,8 @@ namespace NumbersToWordsLib
         public IMeasure[] NumberGrades { get; private set; }
 
         public string[] Hundreds { get; private set; }
+
+        public FormulationOfGrade FormulationOfGradeOvr { get; private set; }
 
         #endregion // datas
 
@@ -28,21 +32,23 @@ namespace NumbersToWordsLib
           NumberBase[] numbers,
           TenNumbersBase[] tenNumbers,
           IMeasure[] numberGrades,
-          string[] hundreds)
+          string[] hundreds,
+            FormulationOfGrade formulationOfGradeOvr)
         {
             this.Numbers = numbers;
             this.TenNumbers = tenNumbers;
             this.NumberGrades = numberGrades;
             this.Hundreds = hundreds;
+            this.FormulationOfGradeOvr = formulationOfGradeOvr;
 
             // set context for items
             SetArrayContent(this.TenNumbers);
         }
 
         public NumbersToWords(INTWData ntwData)
-            : this(ntwData.Numbers, ntwData.TenNumbers, ntwData.NumberGrades, ntwData.Hundreds)
+            : this(ntwData.Numbers, ntwData.TenNumbers, ntwData.NumberGrades, ntwData.Hundreds, ntwData.FormulationOfGradeOvr)
         {
-
+            this.CurrentData = ntwData;
         }
 
         #endregion // Ctors
@@ -96,6 +102,12 @@ namespace NumbersToWordsLib
 
         public void FormulationOfGrade(uint subnumber, IMeasure grade, ToWordBuilder builder)
         {
+            if (this.FormulationOfGradeOvr != null)
+            {
+                this.FormulationOfGradeOvr(subnumber, grade, builder);
+                return;
+            }
+
             uint nUnit = subnumber % 10;
             uint nTens = (subnumber / 10) % 10;
             uint nHunds = (subnumber / 100) % 10;
@@ -191,6 +203,7 @@ namespace NumbersToWordsLib
 
         public string Transform(double n, Currency currency)
         {
+            this.CurrentData.CurrentNumber = n;
             return ApplyCaps(Formulation(n, currency, new StringBuilder()), Capitals.NONE);
         }
 

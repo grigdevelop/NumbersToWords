@@ -8,3 +8,8 @@ C:\Users\Grigor\Documents\GitHub\NumbersToWords\SuperNumbers\NumbersToWordsLib\b
 C:\Users\Grigor\Documents\GitHub\NumbersToWords\SuperNumbers\NumbersToWordsLib\obj\Debug\NumbersToWordsLib.csprojResolveAssemblyReference.cache
 C:\Users\Grigor\Documents\GitHub\NumbersToWords\SuperNumbers\NumbersToWordsLib\obj\Debug\NumbersToWordsLib.dll
 C:\Users\Grigor\Documents\GitHub\NumbersToWords\SuperNumbers\NumbersToWordsLib\obj\Debug\NumbersToWordsLib.pdb
+C:\Users\grigor.aleksanyan\Documents\GitHub\NumbersToWords\SuperNumbers\NumbersToWordsLib\bin\Debug\NumbersToWordsLib.dll
+C:\Users\grigor.aleksanyan\Documents\GitHub\NumbersToWords\SuperNumbers\NumbersToWordsLib\bin\Debug\NumbersToWordsLib.pdb
+C:\Users\grigor.aleksanyan\Documents\GitHub\NumbersToWords\SuperNumbers\NumbersToWordsLib\obj\Debug\NumbersToWordsLib.csprojResolveAssemblyReference.cache
+C:\Users\grigor.aleksanyan\Documents\GitHub\NumbersToWords\SuperNumbers\NumbersToWordsLib\obj\Debug\NumbersToWordsLib.dll
+C:\Users\grigor.aleksanyan\Documents\GitHub\NumbersToWords\SuperNumbers\NumbersToWordsLib\obj\Debug\NumbersToWordsLib.pdb

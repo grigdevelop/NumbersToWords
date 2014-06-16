@@ -18,13 +18,13 @@ namespace NumbersToWordsLib.Utilities
         bool insertSpace = false;
 
       
-        public void Append(string s)
+        public void Append(string s, string symb = " ")
         {
 
             if (string.IsNullOrEmpty(s)) return;
 
             if (this.insertSpace)           
-                this.sb.Append(' ');           
+                this.sb.Append(symb);           
             else           
                 this.insertSpace = true;           
 

@@ -14,3 +14,11 @@ C:\Users\Grigor\Documents\GitHub\NumbersToWords\SuperNumbers\SuperNumbers\bin\De
 C:\Users\Grigor\Documents\GitHub\NumbersToWords\SuperNumbers\SuperNumbers\bin\Debug\NumbersToWordsLib.dll
 C:\Users\Grigor\Documents\GitHub\NumbersToWords\SuperNumbers\SuperNumbers\bin\Debug\NumbersToWordsLib.pdb
 C:\Users\Grigor\Documents\GitHub\NumbersToWords\SuperNumbers\SuperNumbers\obj\Debug\SuperNumbers.csprojResolveAssemblyReference.cache
+C:\Users\grigor.aleksanyan\Documents\GitHub\NumbersToWords\SuperNumbers\SuperNumbers\bin\Debug\SuperNumbers.exe.config
+C:\Users\grigor.aleksanyan\Documents\GitHub\NumbersToWords\SuperNumbers\SuperNumbers\obj\Debug\SuperNumbers.exe
+C:\Users\grigor.aleksanyan\Documents\GitHub\NumbersToWords\SuperNumbers\SuperNumbers\obj\Debug\SuperNumbers.pdb
+C:\Users\grigor.aleksanyan\Documents\GitHub\NumbersToWords\SuperNumbers\SuperNumbers\bin\Debug\SuperNumbers.exe
+C:\Users\grigor.aleksanyan\Documents\GitHub\NumbersToWords\SuperNumbers\SuperNumbers\bin\Debug\SuperNumbers.pdb
+C:\Users\grigor.aleksanyan\Documents\GitHub\NumbersToWords\SuperNumbers\SuperNumbers\bin\Debug\NumbersToWordsLib.dll
+C:\Users\grigor.aleksanyan\Documents\GitHub\NumbersToWords\SuperNumbers\SuperNumbers\bin\Debug\NumbersToWordsLib.pdb
+C:\Users\grigor.aleksanyan\Documents\GitHub\NumbersToWords\SuperNumbers\SuperNumbers\obj\Debug\SuperNumbers.csprojResolveAssemblyReference.cache

@@ -20,7 +20,7 @@ namespace NumbersToWordsLib.Common
         public NumberWithConstantGender(string formulation)
         {
             _formulation = formulation;
-        }
+        }      
 
         public override string Formulation(GenderAndCount genderAndCount)
         {

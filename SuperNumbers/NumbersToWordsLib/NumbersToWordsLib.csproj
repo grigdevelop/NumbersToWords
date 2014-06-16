@@ -45,8 +45,10 @@
     <Compile Include="Common\Data.cs" />
     <Compile Include="Common\Genders.cs" />
     <Compile Include="Common\Measures.cs" />
+    <Compile Include="Common\NTWDataBase.cs" />
     <Compile Include="Common\Numbers.cs" />
     <Compile Include="Common\NumberToWordsWorker.cs" />
+    <Compile Include="Common\Overrides.cs" />
     <Compile Include="NumbersToWords.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\NTWCreatorUtility.cs" />
